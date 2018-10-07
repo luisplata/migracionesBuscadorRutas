@@ -18,8 +18,12 @@ class CreateTableUsers extends Migration
 			$table->string("nombre");
 			$table->string("email");
 			$table->string("password");
+			$table->string("token");
 			$table->unsignedInteger("app_id");
             $table->timestamps();
+			
+			$table->unique("email");
+			$table->unique("token");
 			
 			$table->foreign('app_id')->references('id')->on('apps');
         });

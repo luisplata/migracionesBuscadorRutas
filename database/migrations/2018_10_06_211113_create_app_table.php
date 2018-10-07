@@ -18,6 +18,8 @@ class CreateAppTable extends Migration
 			$table->string("nombre");
 			$table->string("pagina_web");
             $table->timestamps();
+			
+			$table->unique("pagina_web");
         });
     }
 
