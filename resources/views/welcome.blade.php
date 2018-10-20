@@ -21,10 +21,10 @@
 				<div class="content">
 					<h1><a href="#">API-SITM</a></h1>
 					<p>API Rest para alimentar la aplicacion de transmilenio</p>
-					<!--<ul class="actions">
-						<li><a href="#" class="button special icon fa-download">Download</a></li>
-						<li><a href="http://rutas.transcaribe.nabu.com.co:8001" class="button icon fa-sign-out scrolly">Documentación</a></li>
-					</ul>-->
+					<ul class="actions">
+						<!--<li><a href="#" class="button special icon fa-download">Download</a></li>-->
+						<li><a href="https://documenter.getpostman.com/view/5657431/RWguwbzt" target="_blank" class="button icon fa-sign-out scrolly">Documentación</a></li>
+					</ul>
 				</div>
 				<div class=""><div class="inner"><img src="https://avatars2.githubusercontent.com/u/31176316" alt="" /></div></div>
 			</header>
